@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hello World App</string>
+    <string name="button">Choose Adventurer</string>
+    <array name="adventurerNames">
+        <item>Rick</item>
+        <item>Stan</item>
+        <item>Bob</item>
+        <item>Taylor</item>
+        <item>Kaleigh</item>
+        <item>Chris</item>
+        <item>Thomas</item>
+    </array>
+</resources>

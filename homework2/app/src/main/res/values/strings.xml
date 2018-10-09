@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Homework2</string>
+
+    <string name="textview_callback_num_format">Number from callback: %d</string>
+    <string name="button1">1</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="button4">4</string>
+    <string name="button5">5</string>
+    <string name="label_frag">Number Chooser Fragment:</string>
+    <string name="button_basic">Basic</string>
+    <string name="button_slider">Slider</string>
+    <string name="button_yours">Yours</string>
+    <string name="label_frag_type">Choose Fragment:</string>
+    <string name="goto_color_button">Open Color Chooser Activity</string>
+    <string name="title_activity_color">ColorActivity</string>
+
+</resources>
