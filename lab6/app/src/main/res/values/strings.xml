@@ -2,4 +2,6 @@
     <string name="app_name">iTunesLab</string>
     <string name="button_search">Search</string>
     <string name="artist_name_hint">artist name</string>
+    <string name="song_row_title">Song</string>
+    <string name="album_row_title">Album</string>
 </resources>

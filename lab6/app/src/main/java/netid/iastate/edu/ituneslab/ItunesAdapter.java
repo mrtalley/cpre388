@@ -1,5 +1,6 @@
 package netid.iastate.edu.ituneslab;
 
+import java.lang.reflect.Array;
 import java.util.List;
 
 import android.content.Context;
@@ -77,11 +78,8 @@ public class ItunesAdapter extends ArrayAdapter<ItunesSongRecord> {
             viewHolder = new ItunesViewHolder();
 
             // TODO find the TextViews in songRowView and store references to them in viewHolder
-
-//            songRowView.
-
-//            viewHolder.albumNameTextView.setText();
-//            viewHolder.songTitleTextView.setText();
+            viewHolder.songTitleTextView = songRowView.findViewById(R.id.songRowName);
+            viewHolder.albumNameTextView = songRowView.findViewById(R.id.albumRowName);
 
             // Store the viewHolder (references to TextView instances) with the View object
             songRowView.setTag(viewHolder);
@@ -94,6 +92,8 @@ public class ItunesAdapter extends ArrayAdapter<ItunesSongRecord> {
         ItunesSongRecord itunesRecord = data.get(position);
 
         // TODO using the viewHolder, set the song information in this row
+        viewHolder.albumNameTextView.setText(itunesRecord.getAlbumTitle());
+        viewHolder.songTitleTextView.setText(itunesRecord.getSongTitle());
 
         return songRowView;
     }
