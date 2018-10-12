@@ -78,6 +78,11 @@ public class ItunesAdapter extends ArrayAdapter<ItunesSongRecord> {
 
             // TODO find the TextViews in songRowView and store references to them in viewHolder
 
+//            songRowView.
+
+//            viewHolder.albumNameTextView.setText();
+//            viewHolder.songTitleTextView.setText();
+
             // Store the viewHolder (references to TextView instances) with the View object
             songRowView.setTag(viewHolder);
         } else {
